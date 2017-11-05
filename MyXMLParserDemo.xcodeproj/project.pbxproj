@@ -11,14 +11,18 @@
 		433895751F1F49BA006B3E5A /* CellTwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433895741F1F49BA006B3E5A /* CellTwoTableViewCell.swift */; };
 		433895791F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433895771F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodeld */; };
 		436BDFF51F0E2D0E007920AE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDFF41F0E2D0E007920AE /* CustomTableViewCell.swift */; };
-		437E442D1F44A3E70073661E /* FeedCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E442B1F44A3E70073661E /* FeedCoreData+CoreDataClass.swift */; };
-		437E442E1F44A3E70073661E /* FeedCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E442C1F44A3E70073661E /* FeedCoreData+CoreDataProperties.swift */; };
+		438318261FAF345400E317D2 /* DetailFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438318251FAF345400E317D2 /* DetailFeed.swift */; };
 		43FB6F861F0BF653006DFBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB6F851F0BF653006DFBC5 /* AppDelegate.swift */; };
 		43FB6F881F0BF653006DFBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB6F871F0BF653006DFBC5 /* ViewController.swift */; };
 		43FB6F8B1F0BF653006DFBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB6F891F0BF653006DFBC5 /* Main.storyboard */; };
 		43FB6F8D1F0BF653006DFBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FB6F8C1F0BF653006DFBC5 /* Assets.xcassets */; };
 		43FB6F901F0BF653006DFBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB6F8E1F0BF653006DFBC5 /* LaunchScreen.storyboard */; };
 		43FB6F981F0BF8BB006DFBC5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB6F971F0BF8BB006DFBC5 /* TableViewController.swift */; };
+		60E9CE271F49F843005E6A4C /* ParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9CE261F49F843005E6A4C /* ParserManager.swift */; };
+		60E9CE291F49FE16005E6A4C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9CE281F49FE16005E6A4C /* CoreDataStack.swift */; };
+		60E9CE2B1F4A057E005E6A4C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9CE2A1F4A057E005E6A4C /* Feed.swift */; };
+		60F4F60E1F4AB22E00B9E722 /* FeedCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4F60C1F4AB22E00B9E722 /* FeedCoreData+CoreDataClass.swift */; };
+		60F4F60F1F4AB22E00B9E722 /* FeedCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4F60D1F4AB22E00B9E722 /* FeedCoreData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +30,7 @@
 		433895741F1F49BA006B3E5A /* CellTwoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellTwoTableViewCell.swift; path = ../CellTwoTableViewCell.swift; sourceTree = "<group>"; };
 		433895781F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyXMLParserDemo.xcdatamodel; sourceTree = "<group>"; };
 		436BDFF41F0E2D0E007920AE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		437E442B1F44A3E70073661E /* FeedCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FeedCoreData+CoreDataClass.swift"; path = "../FeedCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
-		437E442C1F44A3E70073661E /* FeedCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FeedCoreData+CoreDataProperties.swift"; path = "../FeedCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		438318251FAF345400E317D2 /* DetailFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFeed.swift; sourceTree = "<group>"; };
 		43FB6F821F0BF653006DFBC5 /* MyXMLParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXMLParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FB6F851F0BF653006DFBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43FB6F871F0BF653006DFBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		43FB6F8F1F0BF653006DFBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FB6F911F0BF653006DFBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43FB6F971F0BF8BB006DFBC5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		60E9CE261F49F843005E6A4C /* ParserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserManager.swift; sourceTree = "<group>"; };
+		60E9CE281F49FE16005E6A4C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		60E9CE2A1F4A057E005E6A4C /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		60F4F60C1F4AB22E00B9E722 /* FeedCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		60F4F60D1F4AB22E00B9E722 /* FeedCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			children = (
 				433895721F1F4991006B3E5A /* CellOneTableViewCell.swift */,
 				433895741F1F49BA006B3E5A /* CellTwoTableViewCell.swift */,
+				436BDFF41F0E2D0E007920AE /* CustomTableViewCell.swift */,
 			);
 			name = CustomCell;
 			sourceTree = "<group>";
@@ -61,8 +70,9 @@
 		4338957E1F1F4FF2006B3E5A /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				437E442B1F44A3E70073661E /* FeedCoreData+CoreDataClass.swift */,
-				437E442C1F44A3E70073661E /* FeedCoreData+CoreDataProperties.swift */,
+				60F4F60C1F4AB22E00B9E722 /* FeedCoreData+CoreDataClass.swift */,
+				60F4F60D1F4AB22E00B9E722 /* FeedCoreData+CoreDataProperties.swift */,
+				433895771F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodeld */,
 			);
 			name = CoreDataModel;
 			sourceTree = "<group>";
@@ -86,19 +96,29 @@
 		43FB6F841F0BF653006DFBC5 /* MyXMLParserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				60E9CE251F49F82A005E6A4C /* Managers */,
 				4338957E1F1F4FF2006B3E5A /* CoreDataModel */,
 				433895761F1F49E4006B3E5A /* CustomCell */,
+				60E9CE2A1F4A057E005E6A4C /* Feed.swift */,
+				438318251FAF345400E317D2 /* DetailFeed.swift */,
 				43FB6F851F0BF653006DFBC5 /* AppDelegate.swift */,
 				43FB6F871F0BF653006DFBC5 /* ViewController.swift */,
 				43FB6F891F0BF653006DFBC5 /* Main.storyboard */,
-				436BDFF41F0E2D0E007920AE /* CustomTableViewCell.swift */,
 				43FB6F971F0BF8BB006DFBC5 /* TableViewController.swift */,
 				43FB6F8C1F0BF653006DFBC5 /* Assets.xcassets */,
 				43FB6F8E1F0BF653006DFBC5 /* LaunchScreen.storyboard */,
 				43FB6F911F0BF653006DFBC5 /* Info.plist */,
-				433895771F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodeld */,
 			);
 			path = MyXMLParserDemo;
+			sourceTree = "<group>";
+		};
+		60E9CE251F49F82A005E6A4C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				60E9CE261F49F843005E6A4C /* ParserManager.swift */,
+				60E9CE281F49FE16005E6A4C /* CoreDataStack.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +153,7 @@
 				TargetAttributes = {
 					43FB6F811F0BF653006DFBC5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2W6FK48U97;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -174,13 +195,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				43FB6F881F0BF653006DFBC5 /* ViewController.swift in Sources */,
+				60E9CE2B1F4A057E005E6A4C /* Feed.swift in Sources */,
 				43FB6F981F0BF8BB006DFBC5 /* TableViewController.swift in Sources */,
 				433895751F1F49BA006B3E5A /* CellTwoTableViewCell.swift in Sources */,
+				60F4F60E1F4AB22E00B9E722 /* FeedCoreData+CoreDataClass.swift in Sources */,
 				433895791F1F4E0D006B3E5A /* MyXMLParserDemo.xcdatamodeld in Sources */,
-				437E442D1F44A3E70073661E /* FeedCoreData+CoreDataClass.swift in Sources */,
 				436BDFF51F0E2D0E007920AE /* CustomTableViewCell.swift in Sources */,
+				60E9CE291F49FE16005E6A4C /* CoreDataStack.swift in Sources */,
+				60E9CE271F49F843005E6A4C /* ParserManager.swift in Sources */,
+				438318261FAF345400E317D2 /* DetailFeed.swift in Sources */,
+				60F4F60F1F4AB22E00B9E722 /* FeedCoreData+CoreDataProperties.swift in Sources */,
 				43FB6F861F0BF653006DFBC5 /* AppDelegate.swift in Sources */,
-				437E442E1F44A3E70073661E /* FeedCoreData+CoreDataProperties.swift in Sources */,
 				433895731F1F4991006B3E5A /* CellOneTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +331,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W6FK48U97;
 				INFOPLIST_FILE = MyXMLParserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.tut.MyXMLParserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,7 +345,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W6FK48U97;
 				INFOPLIST_FILE = MyXMLParserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.tut.MyXMLParserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
